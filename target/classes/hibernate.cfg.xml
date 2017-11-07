@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="show_sql">false</property>
+    	<property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+		<property name="hbm2ddl.auto">update</property>
+		<mapping class="org.sally.entities.UserInfo"></mapping>
+		<mapping class="org.sally.entities.authority.Role"></mapping>
+		<mapping class="org.sally.entities.authority.RoleUser"></mapping>
+		<mapping class="org.sally.entities.authority.RoleAuthFun"></mapping>
+		<mapping class="org.sally.entities.authority.Module"></mapping>
+		<mapping class="org.sally.entities.authority.ModuleFuns"></mapping>
+		<mapping class="org.sally.entities.purchase.PurchaseVendorInfo"></mapping>
+		<mapping class="org.sally.entities.purchase.PurchaseProdInfo"></mapping>
+		<mapping class="org.sally.entities.purchase.PurchaseOrder"></mapping>
+		<mapping class="org.sally.entities.inventory.InventoryInfo"></mapping>
+		<mapping class="org.sally.entities.inventory.InventoryIn"></mapping>
+		<mapping class="org.sally.entities.inventory.InventoryOut"></mapping>
+		<mapping class="org.sally.entities.sales.CustomerInfo"></mapping>
+		<mapping class="org.sally.entities.sales.QuotationInfo"></mapping>
+		<mapping class="org.sally.entities.sales.PiInfo"></mapping>
+		<mapping class="org.sally.entities.sales.IntOrder"></mapping>
+		<mapping class="org.sally.entities.shipment.Invoice"></mapping>
+		<mapping class="org.sally.entities.shipment.PackingList"></mapping>
+	</session-factory>
+</hibernate-configuration>

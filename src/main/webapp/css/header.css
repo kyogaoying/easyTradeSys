@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+#wu-toolbar {
+	background-color: #F4F4F4;
+	border: #DDDDDD solid 1px;
+}
+#wu-toolbar-search {
+	background-color: #F4F4F4;
+	border: #DDDDDD solid 1px;
+}
+table{
+	width: 100%;
+	text-align: center;
+	border-spacing:0px;
+}
+th{
+	border-left: #CCCCCC dotted 0.5px;
+	border-right: #CCCCCC dotted 0.5px;
+	border-collapse: collapse;
+}
+#tHeading{
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F8F8F8), to(#EFEFEF));
+	border: #DDDDDD solid 1px;
+	height: 25px;
+}
+.mustFill{
+	color: red;
+	font-size: 200%;
+	position: relative;
+	top:9px;
+	padding-left:5px;
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+td{
+	border:0.5px solid #CCCCCC;
+	border-left:#CCCCCC dotted 0.5px;
+	border-right:#CCCCCC dotted 0.5px;
+	border-collapse: collapse;
+	text-align: center;
+}
+td input{
+	width:90%;
+}
+.quotationNo{
+	text-decoration: underline;
+	color: cornflowerblue;
+}
+.quotationNo:hover{
+	color: coral;
+}

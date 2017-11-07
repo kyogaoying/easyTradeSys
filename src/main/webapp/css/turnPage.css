@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.turnPage{
+	width: 50px;
+	height: 20px;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F8F8F8), to(#E0ECFF));
+	color: black;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 1px solid gray;
+	border-radius: 3px;
+}
+.turnPage:hover{
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F8F8F8), to(#FBEC88));
+}
+.turnPage:disabled{
+	background: #F4F4F4;
+	color: gray;
+}
+#turnPages{
+	margin-top: 10px;
+	text-align: right;
+}

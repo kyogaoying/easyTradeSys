@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+#selectPageDiv
+{
+	margin-top:20px;
+	text-align: right;
+	color: black;
+}
+	
+#selectCurrPage
+{
+	margin-right:10px;
+	width:100px; 
+	float:left;
+}
+
+#confirmSelectBtn
+{
+	background-color:blue;
+	color:white;
+}

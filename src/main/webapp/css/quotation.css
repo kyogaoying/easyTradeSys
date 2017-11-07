@@ -1,0 +1,57 @@
+@charset "UTF-8";
+	#mainBody{
+		margin: 20px 100px;
+		font-size: small;
+	}
+	#documentTitle{
+		text-align: center;
+	}
+	#documentHeading{
+		height:80px;
+	}
+	#buyerInfo{
+		display: inline-block;
+		width: 350px;
+		float: left;
+		vertical-align: top;
+	}
+	#quotationInfo{
+		display: inline-block;
+		width: 200px;
+		float: right;
+		vertical-align: top;
+	}
+	#mainTable{
+		border-collapse:collapse;
+		margin-bottom: 30px;
+		margin-top: 5px;
+	}
+	th{
+		border: 1px solid black;
+		height: 28px;
+	}
+	td{
+		border: 1px solid black;
+		height: 20px;
+	}
+	.terms{
+		font-weight:bold;
+	}
+	#addRowBtn{
+		width: 20px;
+		height: 20px;
+		background-image: url(icons/add.png);
+		position:relative;
+		left:-80px;
+	}
+	#minorRowBtn{
+		width: 20px;
+		height: 20px;
+		background-image: url(icons/edit_remove.png);
+		position:relative;
+		left:-80px;
+	}
+	#seq1{
+		position:relative;
+		left:-24px;
+	}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+#packingListInfo{
+	width: 250px;
+	float: right;
+}
+#beneficiary{
+	margin-top: 30px;
+	font-weight: bold;
+}
+#signatures{
+	margin-top: 30px;
+	height: 150px;
+	font-size: 120%;
+	clear: right;
+}
+#seller{
+	display: inline-block;
+	width: 300px;
+	float: left
+}
+#buyer{
+	display: inline-block;
+	width: 300px;
+	float: right;
+}
+#ttl{
+	height: 30px;
+	text-align: right;
+	font-size: 110%;
+	font-weight:bold;
+	float: right;
+}
