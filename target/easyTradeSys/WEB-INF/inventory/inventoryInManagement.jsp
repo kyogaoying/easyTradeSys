@@ -157,8 +157,6 @@
 	{
 		// 清空除表格标题外的所有行
 		$("#wu-datagrid tr[id!='tHeading']").remove();
-		var in_date_start = $("#in_date_start").val();
-
 
 		var condition = [
 			{"condition_key":"in_list_no","condition_value":$("#in_list_no").val(),"condition_type":"string"},
@@ -305,7 +303,7 @@
                         "in_qty":element.in_qty,
                         "inventory_loc":element.inventory_loc,
                         "in_date":element.in_date,
-                        "pur_order_no":element.pur_order_no,
+                        "pur_order_no":element.pur_order_no
                     };
                     // 将JSON对象添加到数组
                     objs.push(obj);

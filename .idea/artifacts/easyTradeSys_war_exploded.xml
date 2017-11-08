@@ -7,17 +7,21 @@
           <element id="module-output" name="easyTradeSys" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.3.12.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-test:4.3.12.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:5.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-jpa:2.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:2.0.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.12" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-entitymanager:5.2.10.Final" />
           <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.3.0.Final" />
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:5.2.10.Final" />

@@ -12,10 +12,10 @@
 	
 	<annotation-driven>
 		<message-converters register-defaults="false">
-			<beans:bean class="org.springframework.http.converter.StringHttpMessageConverter" />
-			<beans:bean class="org.springframework.http.converter.xml.XmlAwareFormHttpMessageConverter" />
-			<beans:bean class="org.springframework.http.converter.ByteArrayHttpMessageConverter" />
-			<beans:bean class="org.springframework.http.converter.BufferedImageHttpMessageConverter" />
+			<beans:bean class="org.springframework.http.converter.StringHttpMessageConverter" ></beans:bean>
+			<beans:bean class="org.springframework.http.converter.xml.XmlAwareFormHttpMessageConverter" ></beans:bean>
+			<beans:bean class="org.springframework.http.converter.ByteArrayHttpMessageConverter" ></beans:bean>
+			<beans:bean class="org.springframework.http.converter.BufferedImageHttpMessageConverter" ></beans:bean>
 			<!-- <beans:bean id="fastJsonHttpMessageConverter" class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter" >
 				<beans:property name="supportedMediaTypes">
 					<beans:list>
@@ -32,7 +32,7 @@
 					</beans:list>
 				</beans:property>
 				<beans:property name="objectMapper"> 
-                	<beans:bean class="org.sally.converter.JsonObjectMapper" />
+                	<beans:bean class="org.sally.converter.JsonObjectMapper"></beans:bean> 
             	</beans:property>			
 			</beans:bean>
 		</message-converters>

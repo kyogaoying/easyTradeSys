@@ -1,5 +1,6 @@
 package org.sally.service.authority;
 
+import org.sally.dao.RoleRepository;
 import org.sally.dao.authority.RoleDao;
 import org.sally.entities.Condition;
 import org.sally.entities.ExecuteResult;
@@ -16,6 +17,9 @@ public class RoleService
     @Autowired
     private RoleDao roleDao;
 
+    @Autowired
+    private RoleRepository roleRepository;
+
     /**
      * 添加角色
      * 
@@ -27,7 +31,8 @@ public class RoleService
     public ExecuteResult add(List<Role> roles) throws Exception
     {
     		ExecuteResult er = new ExecuteResult();
-        roleDao.add(roles);
+//        roleDao.add(roles);
+        roleRepository.saveAll(roles);
         er.setResult(1);
         
         return er;

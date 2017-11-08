@@ -6,24 +6,24 @@
 	<session-factory>
 		<property name="show_sql">false</property>
     	<property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
-		<property name="hbm2ddl.auto">update</property>
-		<mapping class="org.sally.entities.UserInfo"></mapping>
-		<mapping class="org.sally.entities.authority.Role"></mapping>
-		<mapping class="org.sally.entities.authority.RoleUser"></mapping>
-		<mapping class="org.sally.entities.authority.RoleAuthFun"></mapping>
-		<mapping class="org.sally.entities.authority.Module"></mapping>
-		<mapping class="org.sally.entities.authority.ModuleFuns"></mapping>
-		<mapping class="org.sally.entities.purchase.PurchaseVendorInfo"></mapping>
-		<mapping class="org.sally.entities.purchase.PurchaseProdInfo"></mapping>
-		<mapping class="org.sally.entities.purchase.PurchaseOrder"></mapping>
-		<mapping class="org.sally.entities.inventory.InventoryInfo"></mapping>
-		<mapping class="org.sally.entities.inventory.InventoryIn"></mapping>
-		<mapping class="org.sally.entities.inventory.InventoryOut"></mapping>
-		<mapping class="org.sally.entities.sales.CustomerInfo"></mapping>
-		<mapping class="org.sally.entities.sales.QuotationInfo"></mapping>
-		<mapping class="org.sally.entities.sales.PiInfo"></mapping>
-		<mapping class="org.sally.entities.sales.IntOrder"></mapping>
-		<mapping class="org.sally.entities.shipment.Invoice"></mapping>
-		<mapping class="org.sally.entities.shipment.PackingList"></mapping>
+		<!-- <property name="hbm2ddl.auto">update</property> -->
+		<mapping class="org.sally.entities.UserInfo" />
+		<mapping class="org.sally.entities.authority.Role" />
+		<mapping class="org.sally.entities.authority.RoleUser"/>
+		<mapping class="org.sally.entities.authority.RoleAuthFun"/>
+		<mapping class="org.sally.entities.authority.Module"/>
+		<mapping class="org.sally.entities.authority.ModuleFuns"/>
+		<mapping class="org.sally.entities.purchase.PurchaseVendorInfo"/>
+		<mapping class="org.sally.entities.purchase.PurchaseProdInfo"/>
+		<mapping class="org.sally.entities.purchase.PurchaseOrder"/>
+		<mapping class="org.sally.entities.inventory.InventoryInfo"/>
+		<mapping class="org.sally.entities.inventory.InventoryIn"/>
+		<mapping class="org.sally.entities.inventory.InventoryOut"/>
+		<mapping class="org.sally.entities.sales.CustomerInfo"/>
+		<mapping class="org.sally.entities.sales.QuotationInfo"/>
+		<mapping class="org.sally.entities.sales.PiInfo"/>
+		<mapping class="org.sally.entities.sales.IntOrder"/>
+		<mapping class="org.sally.entities.shipment.Invoice"/>
+		<mapping class="org.sally.entities.shipment.PackingList"/>
 	</session-factory>
 </hibernate-configuration>

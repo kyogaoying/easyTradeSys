@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url>
 	<properties>
     <java-version>1.8</java-version>
-    <org.springframework-version>4.3.12.RELEASE</org.springframework-version>
+    <org.springframework-version>5.0.1.RELEASE</org.springframework-version>
     <org.aspectj-version>1.8.12</org.aspectj-version>
     <org.slf4j-version>1.7.25</org.slf4j-version>
     <logback.version>1.2.3</logback.version>
@@ -47,6 +47,11 @@
           <groupId>org.springframework</groupId>
           <artifactId>spring-test</artifactId>
           <version>${org.springframework-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>2.0.1.RELEASE</version>
         </dependency>
         <!-- Hibernate -->
         <dependency>

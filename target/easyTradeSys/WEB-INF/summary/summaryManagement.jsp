@@ -33,15 +33,15 @@ pageEncoding="UTF-8" isELIgnored="false"%>
 </style>
 </head>
 <body class="easyui-layout">
-  <div id="mainPart" style="margin: auto">
+  <div id="mainPart" style="margin: auto;overflow-y:auto;">
 	   <table>
 		   <tr>
 			   <th></th>
 			   <th>内部订单号</th>
 			   <th>产品编号</th>
 			   <th>产品名称</th>
-			   <th>采购总价</th>
 			   <th>销售总价</th>
+			   <th>采购总价</th>
 			   <th>盈亏情况</th>
 		   </tr>
 		   <c:forEach items="${summary}" var="info" varStatus="status">
@@ -52,8 +52,8 @@ pageEncoding="UTF-8" isELIgnored="false"%>
 				   <td>${info.int_order_no}</td>
 				   <td>${info.prod_no}</td>
 				   <td>${info.prod_name}</td>
-				   <td>${info.pur_amount}</td>
 				   <td>${info.sales_amount}</td>
+				   <td>${info.pur_amount}</td>
 				   <td>${info.result}</td>
 			   </tr>
 		   </c:forEach>
